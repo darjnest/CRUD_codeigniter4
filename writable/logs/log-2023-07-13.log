@@ -1,0 +1,973 @@
+CRITICAL - 2023-07-13 01:00:11 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Paciente.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paciente')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paciente')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Paciente', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 01:01:31 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Paciente.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paciente')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paciente')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Paciente', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 01:01:41 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Paciente.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paciente')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paciente')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Paciente', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 01:01:43 --> syntax error, unexpected token "(", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Paciente.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paciente')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paciente')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Paciente', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 01:08:55 --> syntax error, unexpected token "[", expecting "," or ";"
+in APPPATH\Models\Pacientes.php on line 10.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Models\\Pacientes.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Pacientes')
+ 3 APPPATH\Controllers\Paciente.php(9): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Pacientes')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-13 01:10:16 --> mysqli_sql_exception: Unknown column 'nombres_pacientes' in 'order clause' in C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\hospital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\hospital\system\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\hospital\system\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\hospital\app\Controllers\Paciente.php(10): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\hospital\system\CodeIgniter.php(932): App\Controllers\Paciente->index()
+#8 C:\xampp\htdocs\hospital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+#9 C:\xampp\htdocs\hospital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\hospital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-13 01:10:16 --> Unknown column 'nombres_pacientes' in 'order clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `paciente`
+ORDER BY `nombres_pacientes` ASC', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `paciente`
+ORDER BY `nombres_pacientes` ASC')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `paciente`
+ORDER BY `nombres_pacientes` ASC')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `paciente`
+ORDER BY `nombres_pacientes` ASC', [], false)
+ 5 SYSTEMPATH\Model.php(241): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(618): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Paciente.php(10): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->index()
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 01:12:06 --> Undefined variable $pacientes
+in APPPATH\Views\listar.php on line 12.
+ 1 APPPATH\Views\listar.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Views\\listar.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\hospital\\app\\Views\\listar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('listar', [], true)
+ 5 APPPATH\Controllers\Paciente.php(13): view('listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 01:12:37 --> Undefined variable $datos
+in APPPATH\Views\listar.php on line 12.
+ 1 APPPATH\Views\listar.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\hospital\\app\\Views\\listar.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\hospital\\app\\Views\\listar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('listar', [], true)
+ 5 APPPATH\Controllers\Paciente.php(13): view('listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 01:22:30 --> Undefined array key "Rut"
+in APPPATH\Views\listar.php on line 36.
+ 1 APPPATH\Views\listar.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Rut"', 'C:\\xampp\\htdocs\\hospital\\app\\Views\\listar.php', 36)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\hospital\\app\\Views\\listar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('listar', [], true)
+ 5 APPPATH\Controllers\Paciente.php(13): view('listar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 02:36:16 --> Invalid file: "cabecera.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cabecera.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cabecera', [], true)
+ 3 APPPATH\Controllers\Paciente.php(11): view('cabecera')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 02:38:14 --> Invalid file: "cabecera.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cabecera.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cabecera', [], true)
+ 3 APPPATH\Controllers\Paciente.php(11): view('cabecera')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 02:38:15 --> Invalid file: "cabecera.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cabecera.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('cabecera', [], true)
+ 3 APPPATH\Controllers\Paciente.php(11): view('cabecera')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 02:39:33 --> Invalid file: "template/cabecera.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('template/cabecera.php')
+ 2 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('template/cabecera', [], true)
+ 3 APPPATH\Controllers\Paciente.php(11): view('template/cabecera')
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->index()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 03:55:34 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Paciente.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paciente')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paciente')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Paciente', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 03:55:51 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Paciente.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paciente')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paciente')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Paciente', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 03:55:52 --> syntax error, unexpected token ";", expecting "]"
+in APPPATH\Controllers\Paciente.php on line 29.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paciente')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paciente')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Paciente', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 03:56:17 --> Unclosed '{' on line 6
+in APPPATH\Controllers\Paciente.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paciente')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paciente')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Paciente', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 03:56:38 --> Unclosed '{' on line 6
+in APPPATH\Controllers\Paciente.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paciente')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paciente')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Paciente', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 03:57:23 --> Unclosed '{' on line 6
+in APPPATH\Controllers\Paciente.php on line 24.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paciente')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paciente')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Paciente', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 03:57:36 --> Unclosed '{' on line 6
+in APPPATH\Controllers\Paciente.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paciente')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paciente')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Paciente', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 03:57:49 --> Unclosed '{' on line 6
+in APPPATH\Controllers\Paciente.php on line 19.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paciente')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paciente')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Paciente', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 03:59:55 --> Undefined variable $cabecera
+in APPPATH\Views\listar.php on line 1.
+ 1 APPPATH\Views\listar.php(1): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'C:\\xampp\\htdocs\\hospital\\app\\Views\\listar.php', 1)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\hospital\\app\\Views\\listar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('listar', [], true)
+ 5 APPPATH\Controllers\Home.php(9): view('listar')
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 04:13:03 --> syntax error, unexpected identifier "print_r"
+in APPPATH\Controllers\Paciente.php on line 27.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paciente')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paciente')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Paciente', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 04:43:41 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Paciente.php(32): CodeIgniter\HTTP\Files\UploadedFile->move('../public/upload/', '1689223421_7a76801eb023b9ef8c92')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 04:45:18 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 04:48:04 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 04:49:02 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 39.
+ 1 APPPATH\Controllers\Paciente.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 39)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:00:53 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Paciente.php(32): CodeIgniter\HTTP\Files\UploadedFile->move('../public/upload/', '1689224453_a113413142d0eb90b922')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:04:10 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getdate()
+in APPPATH\Controllers\Paciente.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:04:34 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:07:23 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:10:52 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:12:12 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getdate()
+in APPPATH\Controllers\Paciente.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:12:38 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::getdate()
+in APPPATH\Controllers\Paciente.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:12:48 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:15:56 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:16:56 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Paciente.php(32): CodeIgniter\HTTP\Files\UploadedFile->move('../public/upload/', '1689225416_14528b2b47b102b1edf1')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:18:47 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:20:38 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:21:08 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Paciente.php(32): CodeIgniter\HTTP\Files\UploadedFile->move('../public/upload/', '1689225668_5ae37de43ff1e70b42dd')
+ 3 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 4 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 5 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:21:25 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:22:14 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:30:20 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:30:50 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:33:59 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:41:29 --> Call to undefined method CodeIgniter\HTTP\IncomingRequest::get()
+in APPPATH\Controllers\Paciente.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:45:48 --> Illegal offset type
+in APPPATH\Controllers\Paciente.php on line 35.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:46:27 --> Undefined variable $rut
+in APPPATH\Controllers\Paciente.php on line 36.
+ 1 APPPATH\Controllers\Paciente.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rut', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:46:57 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:49:31 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 05:53:28 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 49.
+ 1 APPPATH\Controllers\Paciente.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 49)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 06:01:17 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 06:03:36 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 06:04:35 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 06:09:49 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 48.
+ 1 APPPATH\Controllers\Paciente.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 48)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 06:38:29 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 40.
+ 1 APPPATH\Controllers\Paciente.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 06:47:26 --> Undefined variable $pacientes
+in APPPATH\Controllers\Paciente.php on line 43.
+ 1 APPPATH\Controllers\Paciente.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 43)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 06:48:30 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Paciente.php(43): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 06:49:09 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Paciente.php(43): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 06:50:07 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(692): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Controllers\Paciente.php(43): CodeIgniter\BaseModel->save([...])
+ 5 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 6 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 7 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 06:52:02 --> syntax error, unexpected single-quoted string "hospital", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Paciente.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paciente')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paciente')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Paciente', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 06:52:04 --> syntax error, unexpected single-quoted string "hospital", expecting identifier or variable or "{" or "$"
+in APPPATH\Controllers\Paciente.php on line 43.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\Paciente')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\Paciente')
+ 4 SYSTEMPATH\CodeIgniter.php(890): class_exists('\\App\\Controllers\\Paciente', true)
+ 5 SYSTEMPATH\CodeIgniter.php(484): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 06:52:43 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Paciente.php(43): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 06:55:13 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Paciente.php(43): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 06:58:42 --> There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 762.
+ 1 SYSTEMPATH\BaseModel.php(762): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([], true)
+ 3 APPPATH\Controllers\Paciente.php(43): CodeIgniter\Model->insert([...])
+ 4 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+ 5 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 6 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 07:24:38 --> Undefined property: App\Controllers\Paciente::$responde
+in APPPATH\Controllers\Paciente.php on line 57.
+ 1 APPPATH\Controllers\Paciente.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Paciente::$responde', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->borrar('')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 07:25:06 --> Undefined property: App\Controllers\Paciente::$responde
+in APPPATH\Controllers\Paciente.php on line 57.
+ 1 APPPATH\Controllers\Paciente.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Paciente::$responde', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 57)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->borrar('')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-13 07:28:11 --> mysqli_sql_exception: Unknown column 'rut' in 'where clause' in C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\hospital\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\hospital\system\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\hospital\system\BaseModel.php(656): CodeIgniter\Model->doFirst()
+#6 C:\xampp\htdocs\hospital\app\Controllers\Paciente.php(54): CodeIgniter\BaseModel->first()
+#7 C:\xampp\htdocs\hospital\system\CodeIgniter.php(932): App\Controllers\Paciente->borrar('')
+#8 C:\xampp\htdocs\hospital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+#9 C:\xampp\htdocs\hospital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\hospital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2023-07-13 07:28:11 --> Unknown column 'rut' in 'where clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *
+FROM `paciente`
+WHERE `rut` = \'\'
+ LIMIT 1', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `paciente`
+WHERE `rut` = \'\'
+ LIMIT 1')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `paciente`
+WHERE `rut` = \'\'
+ LIMIT 1')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `paciente`
+WHERE `rut` = :rut:
+ LIMIT 1', [...], false)
+ 5 SYSTEMPATH\Model.php(268): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(656): CodeIgniter\Model->doFirst()
+ 7 APPPATH\Controllers\Paciente.php(54): CodeIgniter\BaseModel->first()
+ 8 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->borrar('')
+ 9 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+10 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 07:31:49 --> Undefined constant "App\Controllers\rut"
+in APPPATH\Controllers\Paciente.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->borrar('')
+ 2 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 3 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 07:35:11 --> Undefined variable $rut_paciente
+in APPPATH\Controllers\Paciente.php on line 54.
+ 1 APPPATH\Controllers\Paciente.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rut_paciente', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->borrar('')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 07:35:39 --> Undefined variable $rut_paciente
+in APPPATH\Controllers\Paciente.php on line 55.
+ 1 APPPATH\Controllers\Paciente.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rut_paciente', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->borrar('')
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 14:23:19 --> Undefined array key "rut"
+in APPPATH\Views\editar.php on line 12.
+ 1 APPPATH\Views\editar.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rut"', 'C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Paciente.php(70): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->editar('17694550')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 14:23:40 --> Undefined array key "rut"
+in APPPATH\Views\editar.php on line 12.
+ 1 APPPATH\Views\editar.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rut"', 'C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php', 12)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Paciente.php(70): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->editar('17694550')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 14:27:48 --> Undefined variable $pacientes
+in APPPATH\Views\editar.php on line 4.
+ 1 APPPATH\Views\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pacientes', 'C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Paciente.php(70): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->editar('17694550')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 14:28:10 --> Undefined variable $datos
+in APPPATH\Views\editar.php on line 4.
+ 1 APPPATH\Views\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Paciente.php(70): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->editar('17694550')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 14:28:25 --> Undefined variable $datos
+in APPPATH\Views\editar.php on line 4.
+ 1 APPPATH\Views\editar.php(4): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php', 4)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Paciente.php(70): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->editar('17694550')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 14:32:15 --> Undefined array key "nombres"
+in APPPATH\Views\editar.php on line 13.
+ 1 APPPATH\Views\editar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombres"', 'C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Paciente.php(70): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->editar('17694550')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 14:33:27 --> Undefined array key "nombres"
+in APPPATH\Views\editar.php on line 13.
+ 1 APPPATH\Views\editar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombres"', 'C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Paciente.php(70): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->editar('17694550')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 14:35:37 --> Undefined array key "rut"
+in APPPATH\Views\editar.php on line 11.
+ 1 APPPATH\Views\editar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rut"', 'C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Paciente.php(70): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->editar('17694550')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 14:35:55 --> Undefined array key "rut_pacientes"
+in APPPATH\Views\editar.php on line 11.
+ 1 APPPATH\Views\editar.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "rut_pacientes"', 'C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php', 11)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Paciente.php(70): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->editar('17694550')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 14:40:26 --> Undefined array key "nombre"
+in APPPATH\Views\editar.php on line 13.
+ 1 APPPATH\Views\editar.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php', 13)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\hospital\\app\\Views\\editar.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1180): CodeIgniter\View\View->render('editar', [], true)
+ 5 APPPATH\Controllers\Paciente.php(70): view('editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->editar('17694550')
+ 7 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 8 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-13 14:45:59 --> mysqli_sql_exception: Column 'rut_paciente' cannot be null in C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\hospital\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\hospital\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\hospital\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\hospital\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\hospital\app\Controllers\Paciente.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\hospital\system\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+#9 C:\xampp\htdocs\hospital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+#10 C:\xampp\htdocs\hospital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hospital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-13 14:45:59 --> Column 'rut_paciente' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (NULL, NULL, \'carlos \', \'silva\', \'araneda\', NULL, \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (NULL, NULL, \'carlos \', \'silva\', \'araneda\', NULL, \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (NULL, NULL, \'carlos \', \'silva\', \'araneda\', NULL, \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (:rut_paciente:, :dv_paciente:, :nombres_paciente:, :apellidop_paciente:, :apellidom_paciente:, :fenac_paciente:, :sexo_paciente:, :nomsocial_paciente:, :direccion_paciente:, :telefono_paciente:, :email_paciente:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Paciente.php(43): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-13 14:50:07 --> mysqli_sql_exception: Column 'rut_paciente' cannot be null in C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\hospital\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\hospital\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\hospital\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\hospital\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\hospital\app\Controllers\Paciente.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\hospital\system\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+#9 C:\xampp\htdocs\hospital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+#10 C:\xampp\htdocs\hospital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hospital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-13 14:50:07 --> Column 'rut_paciente' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (NULL, NULL, \'carlos \', \'silva\', \'diaz\', \'21-03-1991\', \'masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (NULL, NULL, \'carlos \', \'silva\', \'diaz\', \'21-03-1991\', \'masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (NULL, NULL, \'carlos \', \'silva\', \'diaz\', \'21-03-1991\', \'masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (:rut_paciente:, :dv_paciente:, :nombres_paciente:, :apellidop_paciente:, :apellidom_paciente:, :fenac_paciente:, :sexo_paciente:, :nomsocial_paciente:, :direccion_paciente:, :telefono_paciente:, :email_paciente:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Paciente.php(43): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-13 14:59:00 --> mysqli_sql_exception: Column 'dv_paciente' cannot be null in C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\hospital\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\hospital\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\hospital\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\hospital\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\hospital\app\Controllers\Paciente.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\hospital\system\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+#9 C:\xampp\htdocs\hospital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+#10 C:\xampp\htdocs\hospital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hospital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-13 14:59:00 --> Column 'dv_paciente' cannot be null
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', NULL, \'carlos \', \'silva\', \'araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', NULL, \'carlos \', \'silva\', \'araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', NULL, \'carlos \', \'silva\', \'araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (:rut_paciente:, :dv_paciente:, :nombres_paciente:, :apellidop_paciente:, :apellidom_paciente:, :fenac_paciente:, :sexo_paciente:, :nomsocial_paciente:, :direccion_paciente:, :telefono_paciente:, :email_paciente:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Paciente.php(43): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-13 14:59:57 --> mysqli_sql_exception: Duplicate entry '8815442' for key 'PRIMARY' in C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\hospital\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\hospital\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\hospital\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\hospital\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\hospital\app\Controllers\Paciente.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\hospital\system\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+#9 C:\xampp\htdocs\hospital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+#10 C:\xampp\htdocs\hospital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hospital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-13 14:59:57 --> Duplicate entry '8815442' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', \'8\', \'carlos \', \'silva\', \'araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', \'8\', \'carlos \', \'silva\', \'araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', \'8\', \'carlos \', \'silva\', \'araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (:rut_paciente:, :dv_paciente:, :nombres_paciente:, :apellidop_paciente:, :apellidom_paciente:, :fenac_paciente:, :sexo_paciente:, :nomsocial_paciente:, :direccion_paciente:, :telefono_paciente:, :email_paciente:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Paciente.php(43): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-13 15:01:45 --> mysqli_sql_exception: Duplicate entry '8815442' for key 'PRIMARY' in C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\hospital\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\hospital\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\hospital\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\hospital\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\hospital\app\Controllers\Paciente.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\hospital\system\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+#9 C:\xampp\htdocs\hospital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+#10 C:\xampp\htdocs\hospital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hospital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-13 15:01:45 --> Duplicate entry '8815442' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', \'8\', \'carlos \', \'silva\', \'araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', \'8\', \'carlos \', \'silva\', \'araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', \'8\', \'carlos \', \'silva\', \'araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (:rut_paciente:, :dv_paciente:, :nombres_paciente:, :apellidop_paciente:, :apellidom_paciente:, :fenac_paciente:, :sexo_paciente:, :nomsocial_paciente:, :direccion_paciente:, :telefono_paciente:, :email_paciente:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Paciente.php(43): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-13 15:04:00 --> mysqli_sql_exception: Duplicate entry '8815442' for key 'PRIMARY' in C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\hospital\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\hospital\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\hospital\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\hospital\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\hospital\app\Controllers\Paciente.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\hospital\system\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+#9 C:\xampp\htdocs\hospital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+#10 C:\xampp\htdocs\hospital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hospital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-13 15:04:00 --> Duplicate entry '8815442' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', \'8\', \'carlos \', \'silva\', \'araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', \'8\', \'carlos \', \'silva\', \'araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', \'8\', \'carlos \', \'silva\', \'araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (:rut_paciente:, :dv_paciente:, :nombres_paciente:, :apellidop_paciente:, :apellidom_paciente:, :fenac_paciente:, :sexo_paciente:, :nomsocial_paciente:, :direccion_paciente:, :telefono_paciente:, :email_paciente:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Paciente.php(43): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-13 15:20:38 --> mysqli_sql_exception: Duplicate entry '8815442' for key 'PRIMARY' in C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\hospital\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\hospital\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\hospital\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\hospital\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\hospital\app\Controllers\Paciente.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\hospital\system\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+#9 C:\xampp\htdocs\hospital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+#10 C:\xampp\htdocs\hospital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hospital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-13 15:20:38 --> Duplicate entry '8815442' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', \'8\', \'Carlos \', \'Silva\', \'Araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', \'8\', \'Carlos \', \'Silva\', \'Araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', \'8\', \'Carlos \', \'Silva\', \'Araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (:rut_paciente:, :dv_paciente:, :nombres_paciente:, :apellidop_paciente:, :apellidom_paciente:, :fenac_paciente:, :sexo_paciente:, :nomsocial_paciente:, :direccion_paciente:, :telefono_paciente:, :email_paciente:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Paciente.php(43): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2023-07-13 15:20:59 --> mysqli_sql_exception: Duplicate entry '8815442' for key 'PRIMARY' in C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\hospital\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `pa...', 0)
+#1 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pa...')
+#2 C:\xampp\htdocs\hospital\system\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pa...')
+#3 C:\xampp\htdocs\hospital\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pa...', Array, false)
+#4 C:\xampp\htdocs\hospital\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\hospital\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\hospital\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\hospital\app\Controllers\Paciente.php(43): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\hospital\system\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+#9 C:\xampp\htdocs\hospital\system\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+#10 C:\xampp\htdocs\hospital\system\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\hospital\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2023-07-13 15:20:59 --> Duplicate entry '8815442' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', \'8\', \'Carlos \', \'Silva\', \'Araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(692): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', \'8\', \'Carlos \', \'Silva\', \'Araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(606): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (\'8815442\', \'8\', \'Carlos \', \'Silva\', \'Araneda\', \'03-07-1959\', \'Masculino\', \'carlos\', \'los carreras 4051\', \'2147483647\', \'crasd15@live.com\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `paciente` (`rut_paciente`, `dv_paciente`, `nombres_paciente`, `apellidop_paciente`, `apellidom_paciente`, `fenac_paciente`, `sexo_paciente`, `nomsocial_paciente`, `direccion_paciente`, `telefono_paciente`, `email_paciente`) VALUES (:rut_paciente:, :dv_paciente:, :nombres_paciente:, :apellidop_paciente:, :apellidom_paciente:, :fenac_paciente:, :sexo_paciente:, :nomsocial_paciente:, :direccion_paciente:, :telefono_paciente:, :email_paciente:)', [...], false)
+ 5 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(782): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(730): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\Paciente.php(43): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->guardar()
+10 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+11 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-07-13 15:27:11 --> Undefined variable $rut
+in APPPATH\Controllers\Paciente.php on line 86.
+ 1 APPPATH\Controllers\Paciente.php(86): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rut', 'C:\\xampp\\htdocs\\hospital\\app\\Controllers\\Paciente.php', 86)
+ 2 SYSTEMPATH\CodeIgniter.php(932): App\Controllers\Paciente->actualizar()
+ 3 SYSTEMPATH\CodeIgniter.php(497): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Paciente))
+ 4 SYSTEMPATH\CodeIgniter.php(366): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
